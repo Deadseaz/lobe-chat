@@ -1,0 +1,28 @@
+{
+  "identifier": "agent-system",
+  "api": [
+    {
+      "url": "http://agent-system:3003",
+      "name": "Agent System"
+    }
+  ],
+  "gateway": "http://agent-system:3003",
+  "version": "2.0.0",
+  "author": "Agent System",
+  "homepage": "https://github.com/lobehub/lobe-chat",
+  "meta": {
+    "title": "Agent System",
+    "description": "Multi-agent orchestration system with natural language commands",
+    "avatar": "🧠",
+    "tags": ["agents", "orchestration", "automation", "infrastructure"]
+  },
+  "openapi": "http://agent-system:3003/openapi.json",
+  "capabilities": [
+    "create-agents",
+    "manage-docker",
+    "terraform",
+    "knowledge-base",
+    "extensions",
+    "chat-commands"
+  ]
+}
